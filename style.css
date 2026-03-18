@@ -449,24 +449,27 @@ footer p {
   text-align: center;
 }
 
+
 @media screen and (max-width: 600px) {
-  .section-container {
-      gap: 1.5rem;
-      height: auto;
+    
+
+  #profile .section__pic-container {
+      width: 250px !important; 
+      height: 250px !important;
+      margin: 0 auto 2rem !important;
   }
+
 
   .about-pic {
-      width: 200px; 
-      height: auto;
+      width: 280px !important;
+      height: auto !important;
+      transform: rotate(0deg) !important; 
+      display: block !important;
+      margin: 0 auto 1.5rem !important;
   }
 
-  .about-containers {
-      flex-direction: column; 
-      align-items: center;
-  }
-
+ 
   .details-container {
-      width: 100%; 
-      max-width: 280px;
+      margin-bottom: 1.5rem !important;
   }
 }
